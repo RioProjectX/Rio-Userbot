@@ -85,7 +85,7 @@ async def killdabot(event):
 
 @bot.on(man_cmd(outgoing=True, pattern=r"readme$"))
 async def reedme(e):
-    await e.edit(
+    await e.edit
         @bot.on(man_cmd(outgoing=True, pattern=r"readme$"))
 async def reedme(e):
     await e.edit(
