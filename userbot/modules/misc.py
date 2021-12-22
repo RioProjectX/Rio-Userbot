@@ -64,7 +64,7 @@ async def killdabot(event):
             "**#SHUTDOWN** \n"
             "**Rio-Userbot** telah di matikan!\nJika ingin menghidupkan kembali silahkan buka heroku",
         )
-    await event.edit("`Man-Userbot Berhasil di matikan!`")
+    await event.edit("`Rio-Userbot Berhasil di matikan!`")
     if HEROKU_APP is not None:
         HEROKU_APP.process_formation()["worker"].scale(0)
     else:
@@ -84,9 +84,6 @@ async def killdabot(event):
 
 
 @bot.on(man_cmd(outgoing=True, pattern=r"readme$"))
-async def reedme(e):
-    await e.edit
-        @bot.on(man_cmd(outgoing=True, pattern=r"readme$"))
 async def reedme(e):
     await e.edit(
         "**Berikut sesuatu untuk kamu baca:**\n"
@@ -116,13 +113,13 @@ async def repeat(rep):
 async def repo_is_here(wannasee):
     """For .repo command, just returns the repo URL."""
     await wannasee.edit(
-        f"**Hai**, Saya Menggunakan 🔥 **Rio-Userbot** 🔥\n\n"
-        f"      Special Thanks For Rio\n\n"
+        f"**Hey**, Saya Menggunakan 🔥 **Rio-Userbot** 🔥\n\n"
+        f"      __Thanks For Using me__\n\n"
         f"✣ **Userbot Version :** `{BOT_VER}@{UPSTREAM_REPO_BRANCH}`\n"
-        f"✣ **Group Support :** [Group](t.me/riogroupsupport)\n"
-        f"✣ **Channel Man :** [Projects](t.me/Lunatic0de)\n"
+        f"✣ **Group Support :** [Sharing Userbot](t.me/riogroupsupport)\n"
+        f"✣ **Channel Man :** [Lunatic0de](t.me/rioprojects)\n"
         f"✣ **Owner Repo :** [Rio](t.me/fckualot)\n"
-        f"✣ **Repo :** [Rio-Userbot](https://github.com/RioProjectX/Rio-Userbot)\n"
+        f"✣ **Repo :** [Rio-Userbot](https://github.com/rioprojectx/Rio-Userbot)\n"
     )
 
 
@@ -130,7 +127,7 @@ async def repo_is_here(wannasee):
 async def repo_is_here(wannasee):
     """For .repo command, just returns the repo URL."""
     await wannasee.edit(
-        "✥ **GET STRING SESSION TELEGRAM :** [KLIK DISINI](https://replit.com/@RioProjectX/stringen-2#main.py)\n"
+        "✥ **GET STRING SESSION TELEGRAM :** [KLIK DISINI](https://repl.it/@mrismanaziz/stringenSession?lite=1&outputonly=1)\n"
     )
 
 
@@ -319,67 +316,3 @@ CMD_HELP.update(
         \n\n  •  **Syntax :** `{cmd}sleep`\
         \n  •  **Function : **Biarkan Man-Userbot tidur selama beberapa detik \
     "
-    }
-)
-
-
-CMD_HELP.update(
-    {
-        "repo": f"**Plugin : **`Repository Man-Userbot`\
-        \n\n  •  **Syntax :** `{cmd}repo`\
-        \n  •  **Function : **Menampilan link Repository Man-Userbot\
-        \n\n  •  **Syntax :** `{cmd}string`\
-        \n  •  **Function : **Menampilan link String Man-Userbot\
-    "
-    }
-)
-
-
-CMD_HELP.update(
-    {
-        "readme": f"**Plugin : **`Panduan Menggunakan userbot`\
-        \n\n  •  **Syntax :** `{cmd}readme`\
-        \n  •  **Function : **Menyediakan tautan untuk mengatur userbot dan modulnya\
-    "
-    }
-)
-
-
-CMD_HELP.update(
-    {
-        "restart": f"**Plugin : **`Restart Man-Userbot`\
-        \n\n  •  **Syntax :** `{cmd}restart`\
-        \n  •  **Function : **Untuk Merestart userbot.\
-    "
-    }
-)
-
-
-CMD_HELP.update(
-    {
-        "shutdown": f"**Plugin : **`shutdown`\
-        \n\n  •  **Syntax :** `{cmd}shutdown`\
-        \n  •  **Function : **Mematikan Userbot.\
-    "
-    }
-)
-
-
-CMD_HELP.update(
-    {
-        "raw": f"**Plugin : **`raw`\
-        \n\n  •  **Syntax :** `{cmd}raw`\
-        \n  •  **Function : **Dapatkan data berformat seperti JSON terperinci tentang pesan yang dibalas.\
-    "
-    }
-)
-
-
-CMD_HELP.update(
-    {
-        "repeat": f"**Plugin : **`repeat`\
-        \n\n  •  **Syntax :** `{cmd}repeat`\
-        \n  •  **Function : **Mengulangi teks untuk beberapa kali. Jangan bingung ini dengan spam tho.\
-    "
-    }
-)
