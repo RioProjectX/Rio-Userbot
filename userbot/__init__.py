@@ -144,8 +144,8 @@ SUDO_HANDLER = os.environ.get("SUDO_HANDLER", r"$")
 OWNER_ID = int(os.environ.get("OWNER_ID") or 0)
 
 # Support
-GROUP = os.environ.get("GROUP", "SharingUserbot")
-CHANNEL = os.environ.get("CHANNEL", "Lunatic0de")
+GROUP = os.environ.get("GROUP", "RioGroupSupport")
+CHANNEL = os.environ.get("CHANNEL", "RioProjects")
 
 # Heroku Credentials for updater.
 HEROKU_APP_NAME = os.environ.get("HEROKU_APP_NAME", None)
@@ -160,9 +160,9 @@ GITHUB_ACCESS_TOKEN = os.environ.get("GITHUB_ACCESS_TOKEN", None)
 
 # Custom (forked) repo URL for updater.
 UPSTREAM_REPO_URL = os.environ.get(
-    "UPSTREAM_REPO_URL", "https://github.com/mrismanaziz/Man-Userbot.git"
+    "UPSTREAM_REPO_URL", "https://github.com/RioProjectX/Rio-Userbot.git"
 )
-UPSTREAM_REPO_BRANCH = os.environ.get("UPSTREAM_REPO_BRANCH", "Man-Userbot")
+UPSTREAM_REPO_BRANCH = os.environ.get("UPSTREAM_REPO_BRANCH", "Rio-Userbot")
 
 # SQL Database URI
 DB_URI = os.environ.get("DATABASE_URL", None)
@@ -229,7 +229,7 @@ ZIP_DOWNLOAD_DIRECTORY = os.environ.get("ZIP_DOWNLOAD_DIRECTORY", "./zips")
 BITLY_TOKEN = os.environ.get("BITLY_TOKEN", None)
 
 # Bot Name
-TERM_ALIAS = os.environ.get("TERM_ALIAS", "Man-Userbot")
+TERM_ALIAS = os.environ.get("TERM_ALIAS", "Rio-Userbot")
 
 # Bot version
 BOT_VER = os.environ.get("BOT_VER", "2.1.2")
@@ -334,7 +334,7 @@ except Exception as e:
 async def check_botlog_chatid() -> None:
     if not BOTLOG_CHATID and BOTLOG:
         LOGS.warning(
-            "var BOTLOG_CHATID kamu belum di isi. Buatlah grup telegram dan masukan bot @Rio2Robott lalu ketik /id Masukan id grup nya di var BOTLOG_CHATID"
+            "var BOTLOG_CHATID kamu belum di isi. Buatlah grup telegram dan masukan bot @Rio2Robot lalu ketik /id Masukan id grup nya di var BOTLOG_CHATID"
         )
         sys.exit(1)
 
