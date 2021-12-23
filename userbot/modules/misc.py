@@ -316,3 +316,5 @@ CMD_HELP.update(
         \n\n  •  **Syntax :** `{cmd}sleep`\
         \n  •  **Function : **Biarkan Man-Userbot tidur selama beberapa detik \
     "
+    }
+)
