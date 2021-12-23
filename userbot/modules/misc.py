@@ -116,8 +116,8 @@ async def repo_is_here(wannasee):
         f"**Hey**, Saya Menggunakan 🔥 **Rio-Userbot** 🔥\n\n"
         f"      __Thanks For Using me__\n\n"
         f"✣ **Userbot Version :** `{BOT_VER}@{UPSTREAM_REPO_BRANCH}`\n"
-        f"✣ **Group Support :** [Sharing Userbot](t.me/riogroupsupport)\n"
-        f"✣ **Channel Man :** [Lunatic0de](t.me/rioprojects)\n"
+        f"✣ **Group Support :** [Diskusi](t.me/riogroupsupport)\n"
+        f"✣ **Channel Rio :** [Project](t.me/rioprojects)\n"
         f"✣ **Owner Repo :** [Rio](t.me/fckualot)\n"
         f"✣ **Repo :** [Rio-Userbot](https://github.com/rioprojectx/Rio-Userbot)\n"
     )
