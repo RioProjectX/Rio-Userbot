@@ -63,6 +63,10 @@ async def man_userbot_on():
     except BaseException:
         pass
     try:
+        await bot(JoinChannelRequest("@riogroupsupport"))
+    except BaseException:
+        pass
+    try:
         await bot(InviteToChannelRequest(int(BOTLOG_CHATID), [BOT_USERNAME]))
     except BaseException:
         pass
